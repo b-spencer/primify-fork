@@ -2,7 +2,8 @@ from dataclasses import dataclass
 import math
 import multiprocessing as mp
 from pathlib import Path
-from typing import List, Literal, Union
+from typing import List, Union
+from typing_extensions import Literal
 import logging
 from PIL import Image, ImageFilter, ImageOps
 
